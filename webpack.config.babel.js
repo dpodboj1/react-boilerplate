@@ -26,6 +26,8 @@ export default {
   module: {
     //define loaders for module
     loaders: [
+      //load eslint before running babel and check for errors
+      { enforce: "pre", test: /\.jsx?$/, loader: 'eslint-loader', exclude: /node_modules/ },
       //load every .js and .jsx file and run them through babel, not including node_modules
       { test: /\.jsx?$/, loader:'babel-loader', exclude: /node_modules/ },
     ]
