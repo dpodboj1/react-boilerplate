@@ -31,8 +31,8 @@ export default {
     ]
   },
   //define plugins
-  plugins: {
+  plugins: [
     //use hwpconfig
-    [hwpconfig],
-  }
+    hwpconfig
+  ]
 };
