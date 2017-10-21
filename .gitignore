@@ -1,0 +1,4 @@
+#Do not push node_modules
+/node_modules
+#Do not push dist file
+/dist
