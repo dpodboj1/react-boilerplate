@@ -1,3 +1,4 @@
 {
+  //  env is the latest babel preset, there is no need to specify the year of ES you are using
   "presets": ["env", "react"]
 }
